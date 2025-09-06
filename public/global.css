@@ -1,0 +1,286 @@
+/* -------------------------
+   Base
+------------------------- */
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e0e0e0;
+  background-color: #121212;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+a {
+  color: #4ea3ff;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+  margin: 1em 0 0.5em 0;
+}
+
+/* -------------------------
+   Layout container
+------------------------- */
+.content-wrapper {
+  display: flex;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+/* -------------------------
+   Main content
+------------------------- */
+main {
+  flex: 1;
+  padding: 2em;
+  box-sizing: border-box;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  word-break: break-word;
+}
+
+/* -------------------------
+   Sidebar
+------------------------- */
+aside {
+  width: 250px;
+  height: 100%;
+  background-color: #1e1e1e;
+  padding: 1.5em 1em;
+  border-left: 1px solid #333;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  position: sticky;
+  top: 1rem;
+  z-index: 1000;
+  align-self: flex-start;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  min-width: 0;
+}
+
+/* -------------------------
+   Nav
+------------------------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75em 1.5em;
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+nav .brand img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+nav .brand a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav .links {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+nav .links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav .links a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------
+   Footer
+------------------------- */
+footer {
+  background-color: #1e1e1e;
+  border-top: 1px solid #333;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.1em;
+  color: #aaa;
+}
+
+/* -------------------------
+   Code (inline + block)
+------------------------- */
+code {
+  background-color: #000 !important;
+  color: #fff !important;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+  font-size: 0.95em;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+pre {
+  background-color: #000 !important;
+  color: #fff !important;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  white-space: pre;
+  word-break: break-word;
+}
+
+pre code {
+  padding: 0;
+  background: none !important;
+  color: #fff !important;
+  font-size: 0.95em;
+}
+
+/* -------------------------
+   Tables
+------------------------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 0.6em 0.8em;
+  text-align: left;
+}
+
+thead {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #181818;
+}
+
+/* -------------------------
+   TOC
+------------------------- */
+.toc {
+  margin: 0 0 2em 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.toc li {
+  margin: 0.25em 0;
+}
+
+.toc li a {
+  color: #4ea3ff;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.2s;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.toc li a:hover {
+  text-decoration: underline;
+}
+
+/* Indentation for TOC depth */
+.toc li[data-depth="2"] {
+  margin-left: 1em;
+}
+.toc li[data-depth="3"] {
+  margin-left: 2em;
+}
+
+/* -------------------------
+   Responsive
+------------------------- */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #333;
+  }
+
+  main {
+    width: 100%;
+    padding: 1.5em;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+  }
+
+  nav .links {
+    flex-wrap: wrap;
+    gap: 0.75em;
+  }
+
+  pre code {
+    font-size: 0.7em;
+  }
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+    width: 100%;
+  }
+
+  th {
+    font-weight: bold;
+    background: #1e1e1e;
+  }
+
+  td {
+    border-top: none;
+    border-left: none;
+    padding-left: 0;
+  }
+}

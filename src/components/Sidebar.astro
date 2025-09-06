@@ -1,0 +1,13 @@
+---
+const { headings = [] } = Astro.props;
+import Toc from "./Toc.astro";
+---
+
+<aside>
+  {headings.length > 0 && <Toc headings={headings} />}
+
+  <h3>Resources</h3>
+  <a href="/coding-standard-and-style-guide">Coding Standard</a> |
+  <a href="/license">License</a> |
+  <a href="https://github.com/mesiel-org">Source</a>
+</aside>

@@ -1,0 +1,16 @@
+---
+const { headings = [] } = Astro.props;
+---
+
+<ul class="toc">
+  <h3>Table of Contents</h3>
+  {
+    headings
+      .filter((h) => h.depth < 3)
+      .map((h) => (
+        <li data-depth={h.depth}>
+          <a href={`#${h.slug}`}>{h.text}</a>
+        </li>
+      ))
+  }
+</ul>

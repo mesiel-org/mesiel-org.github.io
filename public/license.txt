@@ -1,0 +1,403 @@
+MESIEL GENERAL LICENSE
+Version 1.0, 2025
+
+    Copyright (C) 2025 Mesiel Project Authors
+    This license originates from the Mesiel Project, but it is intended for general
+    use and may be applied to any software project. The goal is to ensure freedom,
+    clarity, and maintainability while protecting users’ rights to copy, modify,
+    and redistribute software. Anyone adopting this license is encouraged to follow
+    its terms strictly to preserve the principles of free software.
+
+Preamble
+
+    The Mesiel General License (MGL) is designed to guarantee that software remains
+    free in terms of freedom rather than price. “Free software” refers to the user's
+    liberty to run, copy, modify, and distribute the software, and not necessarily
+    to zero cost. This license emphasizes clarity, access to source code, and
+    protections for contributors, ensuring that no one can impose additional
+    restrictions that would inhibit these freedoms.
+
+    By using this license, authors ensure that all recipients of their software can
+    study, understand, and modify the software for personal, educational, or
+    commercial purposes. The license is structured to make explicit the obligations
+    and rights of everyone involved, providing a clear legal framework that is
+    broadly applicable, while retaining simplicity.
+
+    Free software works best when modifications and improvements can be shared
+    among users. The MGL requires that any derivative works remain free and that
+    recipients are granted the same freedoms. This approach promotes collaboration,
+    sustainability, and long-term maintainability. It prevents fragmentation where
+    different versions of software carry incompatible restrictions.
+
+    This license also ensures that contributors are credited appropriately and that
+    users are aware of their responsibilities. It balances freedom with the need
+    for attribution, clarity, and a shared understanding of rights and obligations.
+    The MGL is suitable for both small utilities and large-scale software projects.
+
+TERMS AND CONDITIONS
+
+0. Definitions
+
+    "Program" means any work licensed under this License, including source code,
+    object code, executables, documentation, scripts, or other related materials.
+
+    "You" refers to any individual or entity exercising rights granted under this
+    License.
+
+    "Derivative Work" refers to any work that modifies, adapts, translates, or
+    builds upon the original Program in any way, resulting in a work based on the
+    Program.
+
+1. Source Code
+
+    The preferred form for making modifications is the source code. Distribution of
+    binaries or object code must be accompanied by access to the corresponding
+    source code or instructions for obtaining it. This ensures that anyone receiving
+    the Program can inspect, modify, and rebuild it, maintaining the freedom
+    promised by this license.
+
+    Access to source code is critical for debugging, security auditing, and long-term
+    maintenance. Authors are encouraged to provide clear instructions on building
+    and running the Program from its source.
+
+2. Copying and Distribution
+
+    You may copy and distribute the Program, in source or binary form, provided that
+    you meet the following conditions:
+
+        - Preserve all copyright notices and disclaimers of warranty.
+        - Include the full text of this License.
+        - Ensure that recipients are aware of their rights under this License.
+
+    Distribution may occur through physical media, public repositories, websites,
+    or other channels. All recipients must be informed of the MGL terms to ensure
+    consistent application of the license.
+
+    Verbatim copying ensures that the original work can be used and shared without
+    modification. Redistribution of unmodified programs helps build a strong,
+    trusted community and maintains a clear chain of authorship and responsibility.
+
+3. Modifications
+
+    You may modify the Program and create derivative works under the following
+    requirements:
+
+        - Clearly indicate the changes made and the date of modification.
+        - Maintain this License for the modified work.
+        - Provide access to the modified source code if distributing binaries.
+
+    Any derivative work must not introduce restrictions beyond those of the MGL.
+    The intent is to maintain the freedom of all users while allowing innovation
+    and adaptation.
+
+    Example: If you add a new feature or fix a bug, document the change in a header
+    comment or a changelog, including your name and the date, so that future users
+    understand the history of modifications.
+
+4. Binary Distribution
+
+    Distribution of compiled or executable forms is allowed under Sections 2 and 3,
+    provided that:
+
+        - The complete corresponding source code accompanies the binary, or
+        - A clear method for obtaining the source is provided, free of charge or at
+          a reasonable cost.
+
+    This provision ensures transparency and maintains the ability of users to rebuild
+    the Program. It is especially important for software that is distributed in
+    commercial or institutional settings, where source access might otherwise be
+    restricted.
+
+5. License Integrity
+
+    No additional restrictions may be imposed beyond those contained in this License.
+    Sub-licensing or imposing proprietary terms that conflict with this License is
+    prohibited. All copies, whether original or modified, must retain these freedoms
+    to guarantee consistent application of the MGL.
+
+6. Attribution
+
+    Proper credit must be given to the original authors and contributors. Attribution
+    should be included in:
+
+        - Source files
+        - Documentation
+        - Distribution media
+        - Websites or public announcements
+
+    Attribution preserves the historical record of contributions and promotes recognition
+    for efforts made in developing and maintaining the software.
+
+7. Acceptance
+
+    Using, copying, modifying, or distributing the Program constitutes acceptance
+    of the MGL. If you do not accept these terms, you must not use, copy, or
+    distribute the Program.
+
+    Acceptance may be explicit, such as signing a contributor agreement, or implicit,
+    through use or distribution of the software.
+
+8. Warranty
+
+    THE PROGRAM IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+    This includes, but is not limited to, warranties of MERCHANTABILITY, FITNESS FOR
+    A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. The entire risk of using the Program
+    lies with the user. Authors and copyright holders are not liable for any damages
+    arising from the use of the Program.
+
+9. Future Versions
+
+    The Mesiel Project may publish revised versions of this License. Users may adopt
+    the version they received or any later version. Each version may provide refinements,
+    clarifications, or guidance, but will remain compatible with the core principles
+    of the MGL.
+
+HOW TO APPLY THIS LICENSE TO YOUR WORK
+
+1. Adding License Notices
+
+    Include the following notice in every source file:
+
+        <Program Name> — brief description
+        Copyright (C) 2025 <Author Name>
+
+        This program is free software; you may redistribute it and/or modify it under
+        the terms of the Mesiel General License as published by the Mesiel Project;
+        either version 1.0 of the License, or (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful, but WITHOUT
+        ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+        FOR A PARTICULAR PURPOSE. See <https://mesiel-org.github.io/license> for more details.
+
+2. LICENSE File
+
+    Include a full copy of this license as LICENSE.txt in the root of your project.
+    This ensures that anyone obtaining the software can read and understand the
+    license terms.
+
+3. Documentation
+
+    Reference the license in your documentation (README.md, manuals, or websites),
+    providing context and clarity on the terms of use.
+
+4. Source Availability
+
+    If distributing binaries, ensure that the corresponding source code is accessible.
+    This guarantees that users retain the freedom to inspect, modify, and rebuild
+    the Program.
+
+5. Modifications Log
+
+    Maintain a changelog or header comments documenting all modifications. Include
+    the author, date, and description of each change.
+
+6. Attribution in Public Use
+
+    Always provide clear attribution to original authors in any public display,
+    including project pages, publications, and social media announcements.
+
+7. Responsibilities of Distributors
+
+    Distributors of the Program, whether original or modified, are responsible for
+    informing recipients of their rights under this License. This includes explicit
+    communication about the ability to copy, modify, and redistribute the software
+    under the MGL. Failure to provide such information may result in confusion or
+    inadvertent restriction of freedoms, which this License seeks to prevent.
+
+    Distributors should provide clear instructions for accessing the source code,
+    especially for binary distributions. Where possible, include build scripts,
+    dependency information, and configuration details to ensure reproducibility.
+
+8. Contributor Guidelines
+
+    Contributors are encouraged to:
+
+        - Submit modifications with clear documentation.
+        - Maintain backward compatibility where feasible.
+        - Respect existing attribution and copyright notices.
+        - Avoid introducing restrictive licensing in derivative works.
+
+    By contributing to a project under the MGL, you agree to allow your modifications
+    to remain freely available under the same License. This promotes community
+    collaboration, long-term sustainability, and collective improvement of the
+    software ecosystem.
+
+    Contributors should also document changes in a readable format, using header
+    comments, changelogs, or version control commit messages. This ensures that
+    future users understand the evolution of the software.
+
+9. Interoperability with Other Licenses
+
+    The MGL is designed to be compatible with other permissive licenses that do not
+    impose additional restrictions. When combining code under multiple licenses,
+    care must be taken to ensure that the combined work respects the terms of all
+    applicable licenses.
+
+    For example, if incorporating code under the MGL into a project with a
+    permissive MIT-style license, the resulting work may be distributed under the
+    terms of both licenses, provided that all obligations are met. However, merging
+    with more restrictive licenses may not be allowed if it conflicts with the core
+    freedoms guaranteed by the MGL.
+
+10. Enforcement
+
+    Compliance with the terms of this License is required for lawful use, copying,
+    modification, or distribution of the Program. If you fail to meet the conditions
+    outlined in this License, your rights under the MGL are automatically terminated
+    without prejudice to any other legal remedies.
+
+    Parties are encouraged to notify the original authors or maintainers of any
+    non-compliance, and efforts should be made to resolve issues amicably. Legal
+    action may be taken only as a last resort.
+
+11. International Use
+
+    The MGL is intended to be globally applicable. It acknowledges variations in
+    local laws but asserts that the freedoms it guarantees are universally relevant.
+    Users outside the country of origin may still rely on the core principles of
+    freedom, access to source, and permissive redistribution. Adaptation to local
+    legal frameworks may be required, but the underlying obligations and rights must
+    remain intact.
+
+12. Preservation of Notices
+
+    All copies of the Program, whether modified or unmodified, must preserve all
+    existing copyright, license notices, and disclaimers. This ensures that every
+    recipient is aware of the legal framework governing the software and the
+    responsibilities it entails.
+
+13. Non-Discrimination
+
+    This License imposes no restrictions on who may use, modify, or distribute the
+    Program. It cannot be limited to particular fields of endeavor, commercial or
+    non-commercial, or specific types of users. The freedoms granted apply equally
+    to all recipients.
+
+14. Transparency
+
+    The MGL encourages transparency in both code and documentation. Build processes,
+    algorithms, and design decisions should be understandable by users. When
+    distributing binaries, provide sufficient information for the reconstruction of
+    the source code and reproduction of functionality.
+
+    Transparency ensures that the software remains auditable, secure, and maintainable
+    over time. Users can verify the behavior of the Program and contribute confidently.
+
+15. Limitations
+
+    While the MGL provides freedoms to use, copy, and modify, it does not grant any
+    warranty or guarantee of functionality. Users must understand that software may
+    contain bugs, security vulnerabilities, or other limitations. The License limits
+    liability of the authors to ensure that the freedoms can be exercised without
+    legal risk to contributors.
+
+16. Best Practices
+
+    Users and contributors are encouraged to follow best practices for software
+    development:
+
+        - Comment code clearly and meaningfully.
+        - Write modular and maintainable code.
+        - Use version control to track changes.
+        - Test thoroughly before distributing modifications.
+
+    Following these practices improves the overall quality of the software and
+    reduces the likelihood of errors, ensuring that the freedoms granted by the MGL
+    are practical and beneficial.
+
+17. Educational Use
+
+    The MGL explicitly supports educational use. Teachers, students, and researchers
+    are free to study, modify, and redistribute the Program. This promotes learning
+    and understanding of software principles, algorithms, and system design.
+
+18. Community Involvement
+
+    The strength of free software relies on active communities. The MGL encourages
+    sharing improvements, reporting bugs, and participating in discussions. Community
+    engagement ensures the longevity and relevance of software, benefiting all users.
+
+19. Historical Notes
+
+    The Mesiel General License draws inspiration from established free software
+    licenses, incorporating lessons learned from decades of open-source development.
+    Its goal is simplicity, clarity, and enforceability while promoting a cooperative
+    software culture.
+
+20. How to Distribute Modified Works
+
+    When distributing modified works:
+
+        - Include clear notices of modification.
+        - Retain original copyright and license notices.
+        - Ensure recipients understand the MGL terms.
+        - Provide access to source code, either included or through clear instructions.
+
+    This ensures that derivative works remain free and maintain the spirit of the original
+    software.
+
+21. Applying the License in Practice
+
+    Steps to apply the MGL to your project:
+
+        1. Add the standard header to each source file.
+        2. Include a LICENSE.txt file in the root of the project.
+        3. Document the license in README.md and other relevant documentation.
+        4. Ensure that any distribution, binary or source, complies with Sections 2–4.
+        5. Provide guidance for contributors about attribution, modification, and submission.
+
+22. Summary of Core Principles
+
+    The MGL is built upon:
+
+        - Freedom to use software for any purpose.
+        - Freedom to study and modify the source code.
+        - Freedom to redistribute copies, modified or unmodified.
+        - Preservation of attribution and notices.
+        - Responsibility to pass on freedoms.
+        - Prohibition of additional restrictions.
+        - Encouragement of transparency, collaboration, and community engagement.
+        - Legal clarity and simplicity to reduce barriers for contributors and users.
+
+23. Additional Guidance
+
+    While not legally mandatory, following these guidelines helps maintain the integrity
+    of the license:
+
+        - Clearly separate original code from modifications.
+        - Use descriptive changelogs or commit messages.
+        - Maintain clear versioning.
+        - Document build instructions and dependencies.
+
+24. Accessibility
+
+    The MGL encourages accessibility in all software. Efforts should be made to ensure
+    that programs are usable by people with different abilities. This includes
+    thoughtful design of user interfaces, clear documentation, and support for
+    assistive technologies.
+
+25. Long-Term Maintenance
+
+    Projects licensed under the MGL benefit from the long-term maintainability
+    emphasis. Contributors should design systems that are easy to understand,
+    extend, and adapt over time. This reduces fragmentation and ensures the software
+    remains useful for years.
+
+26. Legal Clarity
+
+    The MGL strives to reduce ambiguity in legal language while maintaining enforceability.
+    This clarity ensures that both authors and users understand their rights and
+    obligations without requiring extensive legal interpretation.
+
+27. Encouragement of Standards
+
+    Authors are encouraged to follow coding standards, best practices, and community
+    conventions. Consistency improves readability, reduces errors, and facilitates
+    collaboration.
+
+28. Final Notes
+
+    The Mesiel General License is intended for general use, not limited to Mesiel
+    projects. It can be applied to any software where freedom, transparency, and
+    collaboration are valued. Adopting this license demonstrates a commitment to
+    open, maintainable, and community-oriented software development.
